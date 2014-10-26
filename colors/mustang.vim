@@ -36,6 +36,7 @@ hi Visual	guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=4
 hi SpecialKey	guifg=#808080 guibg=#343434 gui=none ctermfg=244 ctermbg=236
 hi Conceal	guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=4
 hi Search	guifg=white   guibg=NONE    gui=underline cterm=NONE
+hi SpellBad	guifg=salmon  guibg=NONE    gui=none ctermfg=1 ctermbg=none term=bold
 
 " Syntax highlighting
 hi Comment 	guifg=#808080 gui=italic ctermfg=244
