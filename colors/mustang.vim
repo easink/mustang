@@ -21,7 +21,8 @@ hi Cursor       guifg=NONE    guibg=#626262 gui=none ctermbg=241
 hi CursorLine   guibg=#2d2d2d ctermbg=236
 hi CursorColumn guibg=#2d2d2d ctermbg=236
 hi   CursorLineNr  ctermfg=244  ctermbg=234 cterm=bold
-hi Normal       guifg=#e2e2e5 guibg=#202020 gui=none ctermfg=253 ctermbg=234
+"" hi Normal       guifg=#e2e2e5 guibg=#202020 gui=none ctermfg=253 ctermbg=234
+hi Normal       ctermfg=253 ctermbg=234 guifg=NvimLightGrey2 guibg=NvimDarkGrey2
 hi NonText      guifg=#808080 guibg=#303030 gui=none ctermfg=244 ctermbg=235
 hi LineNr       guifg=#808080 guibg=#000000 gui=none ctermfg=244 ctermbg=232
 hi StatusLine   guifg=#d3d3d5 guibg=#444444 gui=none ctermfg=253 ctermbg=238
@@ -43,9 +44,9 @@ hi Todo         guifg=#8f8f8f gui=none ctermfg=245
 hi Boolean      guifg=#b1d631 gui=none ctermfg=148
 hi String       guifg=#b1d631 gui=none ctermfg=148
 hi Identifier   guifg=#b1d631 gui=none ctermfg=148
-hi Function     guifg=#ffffff gui=bold ctermfg=255
-hi Type         guifg=#7e8aa2 gui=none ctermfg=103
-hi Statement    guifg=#7e8aa2 gui=none ctermfg=103
+hi Function     guifg=#eeeeee gui=bold ctermfg=255
+hi Type         guifg=#7e8ac2 gui=none ctermfg=103
+hi Statement    guifg=#7e8ac2 gui=none ctermfg=103
 hi Keyword      guifg=#ff9800 gui=none ctermfg=208
 hi Constant     guifg=#ff9800 gui=none ctermfg=208
 hi Number       guifg=#ff9800 gui=none ctermfg=208
@@ -68,8 +69,8 @@ hi  DiffText    ctermfg=15 ctermbg=2    gui=none
 hi  DiffDelete  ctermfg=black   ctermbg=9    gui=none
 
 " Code-specific colors
-hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
-hi javaOperator   guifg=#7e8aa2 gui=none ctermfg=103
+hi pythonOperator guifg=#7e8ac2 gui=none ctermfg=103
+hi javaOperator   guifg=#7e8ac2 gui=none ctermfg=103
 
 " print colors
 " let num = 255
